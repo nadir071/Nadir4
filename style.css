@@ -168,3 +168,60 @@ footer a ,.foot-right{
     color: rgb(119, 134, 99);
     margin: 0 10px;
 }
+@media only screen and (max-width:1000px) {
+    .title {
+        font-size: 5vw;
+    }
+    .hero-right img {
+        width: 35vw;
+    }
+    .caption {
+        font-size: 1.4vw;
+    }
+    .links a {
+        font-size: 1.5vw;
+        padding: 0.6vw 1.65vw;
+    }
+}
+@media only screen and (max-width:700px) {
+    .title {
+        font-size: 45px;
+        text-align: center;
+    }
+    .hero-right{
+        display: none;
+    }
+    .caption {
+        font-size: 14px;
+    }
+    .links a {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+    .hero-left{
+        display: grid;
+        place-items: center;
+    }
+    .links {
+        justify-content: center;
+    }
+    header {
+        padding: 16px 10px;
+    }
+    header .right a {
+        margin: 0 10px;
+        font-size: 12px;
+    }
+    header .logo {
+        width: 80px;
+    }
+    .box-left img {
+        width: 200px;
+    }
+    .box-title{
+        font-size: 30px;
+    }
+    footer {
+        flex-direction: column;
+    }
+}
