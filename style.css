@@ -99,3 +99,46 @@ header {
     border: none;
     margin-right: 20px;
 }
+.content {
+    width: 100%;
+    min-height: 90%;
+    display: grid;
+    place-items: center;
+}
+.box {
+    width: 80%;
+    background: rgb(232, 240, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5mm;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.box-left, .box-right {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    place-self: center;
+}
+.box-left img {
+    width: 250px;
+    border-radius: 5mm;
+}
+.box-right {
+    font-family: Arial;
+    color: rgb(40, 42, 45);
+}
+.box-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.box-description {
+    width: 100%;
+    font-size: 14px;
+    text-align: justify;
+}
